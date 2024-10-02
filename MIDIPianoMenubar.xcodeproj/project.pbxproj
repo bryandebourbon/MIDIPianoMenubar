@@ -10,9 +10,22 @@
 		2E7F08302CAADC55006FFD20 /* MIDIPianoMenubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIDIPianoMenubar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2EA0E1132CADFDA4001B6E99 /* Exceptions for "MIDIPianoMenubar" folder in "MIDIPianoMenubar" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2E7F082F2CAADC55006FFD20 /* MIDIPianoMenubar */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2E7F08322CAADC55006FFD20 /* MIDIPianoMenubar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2EA0E1132CADFDA4001B6E99 /* Exceptions for "MIDIPianoMenubar" folder in "MIDIPianoMenubar" target */,
+			);
 			path = MIDIPianoMenubar;
 			sourceTree = "<group>";
 		};
@@ -257,6 +270,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MIDIPianoMenubar/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -286,6 +300,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MIDIPianoMenubar/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
